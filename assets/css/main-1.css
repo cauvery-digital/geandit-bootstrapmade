@@ -661,6 +661,15 @@ h6 {
   font-size: 16px;
 }
 
+.footer .credits a {
+  color: var(--nav-dropdown-color);
+  font-weight: 700;
+}
+
+.footer .credits a:hover {
+  color: var(--nav-hover-color);
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
