@@ -558,7 +558,8 @@ h6 {
   padding: 0 20px;
   margin: -7px -8px -7px 0;
   background: var(--accent-color);
-  color: var(--contrast-color);
+  color: #242222;
+  font-weight: 600;
   transition: 0.3s;
   border-radius: 50px;
 }
