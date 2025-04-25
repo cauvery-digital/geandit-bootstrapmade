@@ -658,7 +658,7 @@ h6 {
 
 .footer .credits {
   margin-top: 6px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -880,11 +880,11 @@ section,
 }
 
 .hero .btn-get-started {
-  color: #fcfcc8;
+  color: #ffffff;
   background: var(--accent-color);
   font-family: var(--heading-font);
-  font-weight: 500;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px 12px 28px;
