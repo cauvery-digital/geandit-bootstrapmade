@@ -889,7 +889,7 @@ section,
 }
 
 .hero .btn-get-started {
-  color: #ffffff;
+  color: #302e2e;
   background: var(--accent-color);
   font-family: var(--heading-font);
   font-weight: 600;
