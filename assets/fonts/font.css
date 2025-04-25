@@ -1,0 +1,20 @@
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-display: swap;
+  src: url(fonts/jost.woff2) format('woff2');
+}
+/* hebrew */
+@font-face {
+  font-family: 'Open Sans';
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/open-sans.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-display: swap;
+  src: url(poppins.woff2) format('woff2');
+}

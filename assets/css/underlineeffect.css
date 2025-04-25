@@ -1,0 +1,47 @@
+.underline-effect {
+    position: relative;
+    display: inline-block;
+    color: var(--nav-dropdown-hover-color);
+    text-decoration: none;
+    padding-bottom: 4px;
+    transition: color 0.3s;
+  }
+  
+  .underline-effect::before,
+  .underline-effect::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    background-color: var(--nav-dropdown-hover-color);
+    transition: all 0.3s ease;
+    opacity: 0;
+  }
+  
+  .underline-effect::before {
+    left: 50%;
+    width: 0%;
+    transform: translateX(-50%);
+  }
+  
+  .underline-effect::after {
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  
+  .underline-effect:hover {
+    color: var(--nav-dropdown-hover-color);
+  }
+  
+  .underline-effect:hover::before {
+    width: 100%;
+    opacity: 1;
+  }
+  
+  .underline-effect:hover::after {
+    transform: scaleX(1);
+    opacity: 1;
+    transform-origin: left;
+  }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: hsl(210, 50%, 14%);
+        height: 100vh;
+      }
+
+      .underline-effect {
+        position: relative;
+        display: inline-block;
+        color: #0d6efd;
+        text-decoration: none;
+        padding-bottom: 4px;
+        transition: color 0.3s;
+      }
+      .underline-effect::before,
+      .underline-effect::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 2px;
+        background-color: #0d6efd;
+        transition: all 0.3s ease;
+        opacity: 1;
+      }
+      .underline-effect::before {
+  left: 50%;
+  width: 0%;
+  transform: translateX(-50%);
+}.underline-effect::after {
+  left: 0;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+}.underline-effect:hover {
+  color: #fff;
+}
+ .underline-effect:hover::before {
+  width: 100%;
+  opacity: 1;
+}.underline-effect:hover::after {
+  transform: scaleX(1);
+  opacity: 1;
+  transform-origin: left; 
+}
+
+    </style>
+    <a href="#" class="underline-effect">Web Development</a>
+  </body>
+</html>
