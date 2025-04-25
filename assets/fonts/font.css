@@ -13,8 +13,8 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-display: swap;
-  src: url(fonts/poppins-600.woff2) format('woff2');
+  src: url(fonts/poppins.woff2) format('woff2');
 }
