@@ -69,6 +69,8 @@
 .bi-check-lg::before { content: "\f633"; }
 .bi-activity::before { content: "\f66b"; }
 .bi-bounding-box-circles::before { content: "\f1b5"; }
+.bi-calendar4-week::before { content: "\f217"; }
+.bi-broadcast::before { content: "\f1d6"; }
 .bi-quote::before { content: "\f6b0"; }
 .bi-person::before { content: "\f4e1"; }
 .bi-folder2::before { content: "\f3d9"; }
