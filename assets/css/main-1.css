@@ -193,6 +193,19 @@ h6 {
   }
 }
 
+@media (max-width: 730px) {
+  .header .logo {
+    order: 1;
+  }
+
+  .header .btn-getstarted {
+    display: none;
+  }
+
+  .header .navmenu {
+    order: 2;
+  }
+}
 /* Index Page Header
 ------------------------------*/
 .index-page .header {
