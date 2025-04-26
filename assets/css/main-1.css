@@ -200,6 +200,7 @@ h6 {
 
   .header .logo h1 {
     font-size: 24px;
+    color: #059652;
   }
 
   .header .btn-getstarted {
@@ -215,7 +216,7 @@ h6 {
 
   .header .logo h1 {
     font-size: 20px;
-    color: var(--accent-color);
+    color: #059652;
   }
 }
 
