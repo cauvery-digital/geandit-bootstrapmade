@@ -26,6 +26,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+.bi-x::before { content: "\f62a"; }
 .bi-arrow-up-circle-fill::before { content: "\f139"; }
 .bi-arrow-up-circle::before { content: "\f13a"; }
 .bi-arrow-up-short::before { content: "\f145"; }
@@ -118,6 +119,7 @@
 .bi-list::before { content: "\f479"; }
 .bi-list-columns-reverse::before { content: "\f69f"; }
 .bi-list-columns::before { content: "\f6a0"; }
+.bi-list::before { content: "\f479"; }
 .bi-link-45deg::before { content: "\f470"; }
 .bi-link::before { content: "\f471"; }
 .bi-magic::before { content: "\f675"; }
