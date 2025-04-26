@@ -155,7 +155,7 @@ h6 {
   font-size: 30px;
   margin: 0;
   font-weight: 500;
-  color: var(--heading-color);
+  color: #47b2e4;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -198,23 +198,12 @@ h6 {
     order: 1;
   }
 
-  .header .logo h1 {
-    font-size: 20px;
-  }
-
   .header .btn-getstarted {
     display: none;
   }
 
   .header .navmenu {
     order: 2;
-  }
-}
-
-@media (max-width: 730px) {
-
-  .header .logo h1 {
-    font-size: 18px;
   }
 }
 
