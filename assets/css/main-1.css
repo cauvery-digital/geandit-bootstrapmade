@@ -177,7 +177,7 @@ h6 {
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .header .logo {
     order: 2;
   }
@@ -191,9 +191,9 @@ h6 {
   .header .navmenu {
     order: 1;
   }
-}
+} */
 
-@media (max-width: 730px) {
+ @media (max-width: 1200px) {
   .header .logo {
     order: 1;
   }
@@ -206,6 +206,7 @@ h6 {
     order: 2;
   }
 }
+
 /* Index Page Header
 ------------------------------*/
 .index-page .header {
