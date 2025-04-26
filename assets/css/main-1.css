@@ -155,7 +155,7 @@ h6 {
   font-size: 30px;
   margin: 0;
   font-weight: 500;
-  color: #47b2e4;
+  color: var(--heading-color);
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -195,7 +195,7 @@ h6 {
 
  @media (max-width: 1200px) {
   .header .logo {
-    display: none;
+    order: 1;
   }
 
   .header .btn-getstarted {
