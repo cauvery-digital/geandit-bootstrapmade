@@ -211,10 +211,11 @@ h6 {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 730px) {
 
   .header .logo h1 {
     font-size: 20px;
+    color: var(--accent-color);
   }
 }
 
