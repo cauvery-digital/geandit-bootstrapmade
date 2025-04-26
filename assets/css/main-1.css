@@ -199,8 +199,7 @@ h6 {
   }
 
   .header .logo h1 {
-    font-size: 24px;
-    color: #059652;
+    font-size: 20px;
   }
 
   .header .btn-getstarted {
@@ -215,8 +214,7 @@ h6 {
 @media (max-width: 730px) {
 
   .header .logo h1 {
-    font-size: 20px;
-    color: #059652;
+    font-size: 18px;
   }
 }
 
