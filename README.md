@@ -1,7 +1,6 @@
-# geandit-bootstrapmade
-# geandit-bootstrapmade
+# geandit-bootstrap
 
-# Git Commands
+### Git Commands
 
 echo "# geandit-bootstrapmade" >> README.md
 
