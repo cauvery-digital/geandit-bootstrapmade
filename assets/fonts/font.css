@@ -1,0 +1,23 @@
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: italic;
+  font-display: swap;
+  src: url(fonts/jost.woff2) format('woff2');
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(fonts/open-sans.woff2) format('woff2');
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-display: swap;
+  src: url(fonts/poppins-600.woff2) format('woff2');
+}
