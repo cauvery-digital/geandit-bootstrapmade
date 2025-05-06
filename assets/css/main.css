@@ -1997,7 +1997,7 @@ section,
 .subscribe .cta-form .form-control {
   height: 50px;
   border-radius: 25px 0 0 25px;
-  border: 1px solid var(--accent-color);
+  border: 2px solid var(--accent-color);
   padding-left: 20px;
 }
 
@@ -2018,8 +2018,9 @@ section,
 }
 
 .subscribe .cta-form .btn:hover {
-  background-color: color-mix(in srgb, var(--accent-color), black 10%);
-  border-color: color-mix(in srgb, var(--accent-color), black 10%);
+  background-color: var(--contrast-color);
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 @media (max-width: 575px) {
