@@ -21,3 +21,5 @@ git branch -M greentheme
 git push -u origin greentheme
 
 git push origin greentheme
+
+git add . &&  git commit -m "first commit"
