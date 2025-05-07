@@ -25,7 +25,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-
+  
+.bi-search::before { content: "\f52a"; }
 .bi-x::before { content: "\f62a"; }
 .bi-arrow-up-circle-fill::before { content: "\f139"; }
 .bi-arrow-up-circle::before { content: "\f13a"; }
