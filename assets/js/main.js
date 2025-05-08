@@ -2,6 +2,23 @@
   "use strict";
 
   /**
+   Navigation Active
+   */
+  
+   const page = window.location.pathname.split("/").pop();
+   const links = document.querySelectorAll(".navmenu a");
+   
+   window.addEventListener("DOMContentLoaded", () => {
+     links.forEach((link) => {
+       if (link.getAttribute("href") === page) {
+         link.classList.add("active");
+       } else {
+         link.classList.remove("active");
+       }
+     });
+   });
+
+  /**
    * Apply .scrolled class to the body as the page is scrolled down
    */
   function toggleScrolled() {
