@@ -22,4 +22,4 @@ git push -u origin greentheme
 
 git push origin greentheme
 
-git add . &&  git commit -m "first commit"
+git add . &&  git commit -m "first com" && git push origin greentheme
