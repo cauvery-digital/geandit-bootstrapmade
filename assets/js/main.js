@@ -1,6 +1,13 @@
 (function() {
   "use strict";
 
+
+// // context Menu Disabled //
+// document.addEventListener('contextmenu', function (event) {
+//   event.preventDefault();
+// });
+
+
   /**
    Navigation Active
    */
